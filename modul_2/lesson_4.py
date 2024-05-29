@@ -1,2 +1,3 @@
-for number in range(1, 11):
-    print(f"{2} x {number} = {2 * number}")
+number = int(input("Qaysi karra jadvali kerak?:"))
+for i in range(1, 10):
+    print(f"{number} * {i} = {number * i}")
