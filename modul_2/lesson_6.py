@@ -50,20 +50,32 @@
 #     Maktabim: {user["school"]}
 # """)
 
+#
+# cat = {
+#     "cat": "Kosha",
+#     "age": 3
+# }
+# print(cat)
+#
+# cat["color"] = "White"
+#
+# print(cat)
+#
+# cat["color"] = "Black"
+# print(cat)
+#
+# del cat["age"]
+# print(cat)
+# print(cat["age"])
 
-cat = {
-    "cat": "Kosha",
-    "age": 3
-}
-print(cat)
+cars = [
+    {"model": "Lamborjini", "year": 2011, "price": "200.000$", "color": "red"},
+    {"model": "Ferrari", "year": 2012, "price": "300.000$", "color": "blue"},
+    {"model": "Damas", "year": 2000, "price": "6.000$", "color": "white"},
+    {"model": "Nexia 2", "year": 2010, "price": "9.000$", "color": "black"},
+]
 
-cat["color"] = "White"
-
-print(cat)
-
-cat["color"] = "Black"
-print(cat)
-
-del cat["age"]
-print(cat)
-print(cat["age"])
+print(cars[0]["year"])
+print(cars[1]["model"])
+print(cars[2]["model"])
+print(cars[3]["model"])
